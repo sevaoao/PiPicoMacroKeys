@@ -47,7 +47,7 @@ while True:
         keyboard.send(Keycode.CONTROL, Keycode.F8)
         time.sleep(0.1)
     if btn3.value:
-        keyboard.send(Keycode.CONTROL, Keycode.F9)
+        keyboard.send(Keycode.ONE, Keycode.F9)
         time.sleep(0.1)
     if btn4.value:
         keyboard.send(Keycode.CONTROL, Keycode.F10)
